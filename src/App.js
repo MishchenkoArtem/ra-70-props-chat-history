@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-
 import { messages } from './components/constans.js';
 import MessageHistory from './components/MessageHistory/MessageHistory.jsx';
 
-function App() {
+export default function App() {
     return (
       <div className="clearfix container">
         <div className="chat">
@@ -15,5 +13,3 @@ function App() {
       </div>
     );
 }
-
-export default App;
